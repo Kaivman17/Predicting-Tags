@@ -1,0 +1,8 @@
+# Package Requirements
+
+- Numpy
+- Pandas
+- Matplotlib
+- Seaborn
+- Statsmodels
+- Scikit-Learn
