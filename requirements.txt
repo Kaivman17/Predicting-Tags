@@ -6,5 +6,4 @@
 - seaborn
 - statsmodels
 - scikit-Learn
-- newspaper3k
-- geograpy
+- geopy
