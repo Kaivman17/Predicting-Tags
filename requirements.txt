@@ -1,8 +1,10 @@
 # Package Requirements
 
-- Numpy
-- Pandas
-- Matplotlib
-- Seaborn
-- Statsmodels
-- Scikit-Learn
+- numpy
+- pandas
+- satplotlib
+- seaborn
+- statsmodels
+- scikit-Learn
+- newspaper3k
+- geograpy
