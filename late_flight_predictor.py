@@ -27,7 +27,7 @@ def preprocessor(text):
                            text)
     text = (re.sub('[\W]+', ' ', text.lower()) +
             ' '.join(emoticons).replace('-', ''))
-    return text
+    return [text]
 
 clean_tweet = preprocessor(tweet)
 
@@ -35,6 +35,6 @@ prediction = tfidf_lr.predict(clean_tweet)
 probability = tfidf_lr.predict_proba(clean_tweet)
 
 if prediction == 1:
-    print('Late Flight' + probability)
+    print('Late Flight ' + str(round(np.max(probability), 3)))
 else:
     print('Not Late Flight')
